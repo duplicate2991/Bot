@@ -44,3 +44,11 @@ const client = new Client({
       GatewayIntentBits.GuildVoiceStates
     ]
   });
+client.login(process.env.TKN);
+
+client.on("ready", ()=> {
+  console.log("started");
+});
+client.on("messageCreate", (message) => {
+  if(message.bot) return;
+});
