@@ -9,9 +9,9 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "node ": {
-      "name": "node ",
-      "command": "node ",
+    "node .": {
+      "name": "node .",
+      "command": "node .",
       "runAtStart": true
     }
   }
