@@ -1,5 +1,4 @@
 {
-  // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
       "name": "Install Dependencies",
@@ -7,12 +6,11 @@
     }
   ],
 
-  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "nodemon index.js": {
-      "name": "nodemon index.js",
+    "start": {
+      "name": "start",
       "cotrued": "nodemon index.js",
-      "runAtStart": truetrutruetrutruetrutruetrutruetrutruetrutruetrutruetre
+      "runAtStart": true
     }
   }
 }
