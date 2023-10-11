@@ -54,6 +54,6 @@ client.on("messageCreate", (message) => {
   if(message.content == "!ping!"){
     message.reply({content: `${client.ws.ping}`});
   }else if(message.content == "!uptime!"){
-        message.reply({content: `${client.uptime()}`});
+        message.reply({content: `${client.uptime}`});
   }
 });
