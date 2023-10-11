@@ -9,7 +9,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "cotrued": "nodemon index.js",
+      "cotrued": "node index.js",
       "runAtStart": true
     }
   }
